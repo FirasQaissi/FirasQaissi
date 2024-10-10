@@ -1,0 +1,329 @@
+/***************************************  Header   ***********************************************/
+
+.img1 {
+   margin-top: -5px;
+}
+
+
+.navbar1 {
+   background-color: rgba(160, 150, 150, 0.418) !important;
+
+}
+
+.lili {
+   font-size: larger;
+   font-family: fantasy;
+   gap: 30% !important;
+
+}
+
+#navnav {
+   margin-right: 26%;
+}
+
+.navbrand {
+   background-image: url(/imgs-1/89786426_10157085019293106_3196669340082503680_n.jpg);
+   background-size: cover;
+   width: 62px;
+   height: 62px;
+}
+
+.hide {
+   color: rgba(240, 248, 255, 0);
+}
+
+.aa {
+   text-decoration: none;
+   font-style: inherit;
+   color: rgba(4, 3, 5, 0.589);
+   font-weight: bold;
+}
+
+/*********************************************  Portfolio   *********************************************/
+
+.Portfolio {
+
+   background-image: url(/imgs-1/12046.jpg);
+   width: 60%;
+   height: 400px;
+   background-size: cover;
+}
+
+.h1 {
+   margin-top: 15%;
+   font-family: "Satisfy", cursive !important;
+   padding-top: 11% !important;
+}
+
+.h4port {
+   font-family: "Satisfy", cursive !important;
+   font-size: xx-large;
+   padding-bottom: 9% !important;
+}
+
+/****************************************  About Me   *****************************************************/
+
+.aboutme {
+   background-color: rgba(160, 150, 150, 0.219) !important;
+   height: 250px;
+
+}
+
+.firasimg {
+   height: 5% !important;
+}
+
+.h3firas {
+   margin-top: 10%;
+   padding-left: 3% !important;
+   font-family: fantasy;
+}
+
+.h6firas {
+   margin-top: 15%;
+   margin-left: 2%;
+   padding-right: 5% !important;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+}
+
+#cv {
+   border: 3px solid rgba(133, 116, 116, 0.315);
+   text-decoration: none;
+   padding: 5%;
+   border-radius: 25%;
+   font-size: 45px;
+}
+
+#cv:hover {
+   background-color: rgba(0, 0, 0, 0.397);
+   transition: 1s;
+}
+
+/***************************************  project  ***********************************************/
+
+
+.project {
+   margin-top: 8% !important;
+
+}
+
+#projects {
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+}
+
+.h1project {
+   font-family: fantasy;
+   padding-bottom: 3%;
+   text-decoration: overline;
+}
+
+h3 {
+   font-family: fantasy;
+   text-decoration: underline;
+}
+
+
+
+/***********************************  Media  ***************************************************/
+@media(max-width:768px) {
+
+   .Portfolio,
+   .hello,
+   .aboutme {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 !important;
+      padding: 0 !important;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+   }
+
+
+
+}
+
+
+@media(max-width:768px) {
+
+   .h4port,
+   .h1 {
+      margin-bottom: 50%;
+      font-size: medium;
+   }
+
+   .h1 {
+      display: inline;
+   }
+
+   .hello2 {
+      margin-top: 18% !important;
+   }
+}
+
+/***************************************  Contacts  ****************************************************/
+
+.formbox {
+   display: flex;
+   width: 75%;
+   height: 600px;
+   background-image: url(/imgs-1/pexels-bradleyhook-123335.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 1%;
+   border-radius: 120px;
+   margin: auto;
+
+}
+
+
+.form {
+   width: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   margin: auto;
+   margin-left: 34%;
+   gap: 7px;
+
+   border-radius: 18px;
+   text-align: center;
+   margin-top: 3%;
+   font-size: larger;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.textarea {
+   padding-top: 15%;
+   height: 75px;
+}
+
+input {
+   border-radius: 25px;
+   margin-top: 2%;
+   text-align: center;
+}
+
+
+.submit {
+   margin-top: 10%;
+   background-color: rgba(137, 177, 236, 0.315);
+
+   &:hover {
+      background-color: rgba(103, 184, 23, 0.616);
+   }
+}
+
+/*********************************  promo-projects(Presentation)  **********************************************/
+.proinfo {
+   margin: auto;
+   background-image: url(/imgs-1/Website-Design-Background-Feb-09-2022-03-13-55-73-AM.png);
+   background-size: cover;
+   background-position-x: center;
+   width: 100%;
+   height: 75vh;
+}
+
+.promoimg {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+
+}
+
+.re1 {
+   text-decoration: none;
+   border: 2px groove rgba(48, 44, 32, 0.904);
+   border-radius: 30px;
+   color: rgb(22, 24, 21);
+   font-size: large;
+   background-color: rgba(103, 99, 105, 0.555);
+   text-align: center;
+   font-family: fantasy;
+   width: 80% !important;
+   padding: 2%;
+   margin-left: 10%;
+
+}
+
+.re2 {
+   text-decoration: none;
+   border: 2px groove rgba(22, 22, 20, 0.938);
+   border-radius: 30px;
+   color: rgb(22, 24, 21);
+   font-size: large;
+   background-color: rgba(103, 99, 105, 0.555);
+   text-align: center;
+   font-family: fantasy;
+   width: 80%;
+   padding: 1.5%;
+   margin-left: 10%;
+
+
+}
+
+
+.re1:hover {
+   background-color: rgba(13, 136, 136, 0.774);
+   transform: scale(1.2);
+   transition: .9s;
+}
+
+.re2:hover {
+   background-color: rgba(13, 136, 136, 0.774);
+   transform: scale(1.2);
+   transition: .9s;
+}
+
+
+@media(max-width:768px) {
+   .proinfo {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 75vh;
+      background-size: cover;
+      background-position-x: center;
+
+
+   }
+
+   .img2 {
+
+      width: 100%;
+      height: 100%;
+      margin-right: 25%;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+
+   }
+
+   .proinfo button {
+      width: 100%;
+      height: 100%;
+      font-size: 12px;
+      margin: auto;
+   }
+}
+
+
+
+/**********************************  -project1-1-  *********************************************/
+
+.mainbox {
+   background-image: url(/imgs-1/Path1.png);
+
+   background-size: cover;
+
+}
+
+/**********************************  -project1-Media  ************************************/
