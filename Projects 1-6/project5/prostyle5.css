@@ -40,10 +40,6 @@
 
 }
 
-.boxses>div {
-    border: 0.1px solid black;
-
-}
 
 .boxses>div:nth-child(3) {
     grid-column-start: 3;
@@ -115,4 +111,15 @@
 
 #img16 {
     background-image: url(./img5/14.png);
+}
+
+
+.text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020253;
+    text-align: center;
+    font-family: "Assistant", sans-serif;
+    color: #0EE1DA;
 }
