@@ -59,3 +59,60 @@
     grid-row-end: 7;
 
 }
+
+#img1 {
+    background-image: url(./img5/1.png);
+}
+
+#img2 {
+    background-image: url(./img5/2.png);
+}
+
+#img4 {
+    background-image: url(./img5/3.png);
+}
+
+#img5 {
+    background-image: url(./img5/4.png);
+}
+
+#img6 {
+    background-image: url(./img5/5.png);
+}
+
+#img7 {
+    background-image: url(./img5/6.png);
+}
+
+#img8 {
+    background-image: url(./img5/7.png);
+}
+
+#img9 {
+    background-image: url(./img5/8.png);
+}
+
+#img11 {
+    background-image: url(./img5/9.png);
+}
+
+#img12 {
+    background-image: url(./img5/10.png);
+}
+
+#img13 {
+    background-image: url(./img5/11.png);
+    background-size: cover;
+}
+
+#img14 {
+    background-image: url(./img5/12.png);
+}
+
+#img15 {
+    background-image: url(./img5/13.png);
+}
+
+#img16 {
+    background-image: url(./img5/14.png);
+}
