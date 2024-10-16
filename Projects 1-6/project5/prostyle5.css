@@ -118,8 +118,91 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #020253;
     text-align: center;
     font-family: "Assistant", sans-serif;
     color: #0EE1DA;
+    padding: 8%;
+    row-gap: 10%;
+}
+
+.text1 h4 {
+    color: #F9F9F9;
+    font-size: 20px;
+}
+
+.form {
+    background-color: #8E097C;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+
+
+
+}
+
+.form h1 {
+    font-family: "Assistant", sans-serif;
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 12%;
+
+}
+
+.form h3 {
+    font-size: 20px;
+    font-family: "Assistant", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5%;
+}
+
+.table-form {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-top: 10%;
+    direction: rtl;
+
+
+
+
+
+}
+
+.table-form label {
+    color: #0EE1DA;
+    font-size: 16px;
+    font: normal normal bold 16px/24px Heebo;
+    gap: 10%;
+    margin-top: 5%;
+
+
+}
+
+.table-form input {
+    width: 31.267rem;
+    height: 3.744rem;
+
+
+
+}
+
+textarea {
+    height: 10.763rem !important;
+    margin-top: 5%;
+
+}
+
+#submit {
+    background-color: #0EE1DA;
+    color: #011560;
+    font: normal normal bold 24px/33px Heebo;
+    font-size: 24px;
+    margin-top: 5%;
+
 }
