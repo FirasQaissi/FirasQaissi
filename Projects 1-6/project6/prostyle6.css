@@ -230,3 +230,99 @@
     background-color: #FDBD03;
     border-radius: 50%;
 }
+
+
+
+@media(max-width:768px) {
+    .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../project6/img6/Image\ 1.png) !important;
+        width: 150px !important;
+        height: 280px !important;
+        background-size: contain !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 24px;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .text h3 {
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+
+    .formtable {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formm {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-items: start;
+    }
+
+    .label1 input {
+
+        width: 170%;
+    }
+
+    .label2 input {
+        width: 170%;
+    }
+
+    .textarea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #textarea2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+
+    }
+
+    .iconbox {
+        position: absolute;
+        bottom: -3%;
+        left: 20%;
+    }
+}
