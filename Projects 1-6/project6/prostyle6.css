@@ -16,7 +16,7 @@
     width: 90%;
     height: 75%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
 
 }
@@ -24,8 +24,10 @@
 .img {
     background-image: url(../project6/img6/Image\ 1.png);
     background-size: contain;
-    width: 30.438rem;
-    height: 45.25rem;
+    width: 35.438rem;
+    height: 40.25rem;
+    background-repeat: no-repeat;
+    margin-top: 7%;
 
 
 }
@@ -50,4 +52,38 @@
     height: 70px;
     background-size: cover;
     text-align: center;
+}
+
+.formtable {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25%;
+
+}
+
+.formtable h1 {
+    font-size: 66px;
+    font: normal normal 900 66px/97px Heebo;
+    color: #FDBD03;
+    margin-bottom: 3%;
+
+
+}
+
+.formtable h3 {
+    font-size: 20px;
+    color: #020253;
+    font: normal normal normal 20px/29px Heebo;
+    padding-left: 25%;
+
+
 }
