@@ -15,7 +15,7 @@
 
 .box {
     width: 90%;
-    height: 100%;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -52,7 +52,7 @@
     align-items: center;
     border-radius: 50%;
     position: relative;
-    right: 80%;
+    right: 90%;
     margin-top: 2%;
 }
 
@@ -173,6 +173,60 @@
     font-size: 22px !important;
     background-color: #FDBD03;
     margin-top: 7%;
-    border: none;
 
+}
+
+.iconbox {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 1%;
+    border-bottom: 10px solid #FDBD03;
+
+}
+
+#facebook {
+    background-image: url(../project6/img6/facebook.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FDBD03;
+    border-radius: 50%;
+
+}
+
+#insta {
+    background-image: url(../project6/img6/instagram.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FDBD03;
+    border-radius: 50%;
+}
+
+#lin {
+    background-image: url(../project6/img6/linkedin.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FDBD03;
+    border-radius: 50%;
+
+}
+
+#call {
+    background-image: url(../project6/img6/call.png);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FDBD03;
+    border-radius: 50%;
 }
