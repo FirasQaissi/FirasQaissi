@@ -207,21 +207,65 @@ textarea {
 
 }
 
-
 @media(max-width:768px) {
+
+    .box,
     .main {
+        height: 100%;
+        width: auto;
+        font-size: small;
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .boxses {
+        width: 42vh;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 33% 33% 33% 33%;
+        grid-template-rows: 180px 180px 180px 180px 180px 180px;
+        font-size: small;
+        background-repeat: no-repeat;
 
     }
 
-    .box {
+    .form h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .form h3 {
+        font-size: 13px !important;
+        padding: 3%;
+    }
+
+    .table-form {
+        width: 75%;
+        height: 68%;
+    }
+
+    .table-form input {
         width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
+    }
+
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6,
+    #img7,
+    #img8,
+    #img9,
+    #img10,
+    #img11,
+    #img12,
+    #img13,
+    #img14,
+    #img15,
+    #img16 {
+        background-size: cover;
     }
 }
