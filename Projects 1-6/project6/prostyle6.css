@@ -240,6 +240,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: auto;
+    }
+
+    .main {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-self: center;
     }
 
     .img {
@@ -296,11 +305,11 @@
 
     .label1 input {
 
-        width: 170%;
+        width: 100%;
     }
 
     .label2 input {
-        width: 170%;
+        width: 100%;
     }
 
     .textarea {
@@ -309,6 +318,10 @@
         align-items: center;
         justify-content: center;
 
+    }
+
+    .pas {
+        display: none;
     }
 
     #textarea2 {
