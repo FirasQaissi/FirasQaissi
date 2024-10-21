@@ -394,12 +394,10 @@ input {
 
    .img2 {
 
-      width: 30%;
-      height: 30%;
+      width: 75% !important;
+      height: 75% !important;
 
-      flex-direction: row;
-      text-align: center;
-      align-items: center;
+
 
 
    }
@@ -445,8 +443,8 @@ input {
    }
 
    .re1 {
-      width: 100% !important;
-      height: 65px;
+      width: 80% !important;
+      height: 45px;
       border-radius: 2% !important;
       font-size: medium;
       text-align: center;
@@ -454,8 +452,8 @@ input {
    }
 
    .re2 {
-      width: 100% !important;
-      height: 65px;
+      width: 80% !important;
+      height: 45px;
       border-radius: 2% !important;
       font-size: medium;
       text-align: center;
