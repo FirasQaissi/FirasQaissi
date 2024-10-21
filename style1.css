@@ -124,7 +124,21 @@ h3 {
    text-decoration: underline;
 }
 
+.cardi {
+   background-color: rgba(116, 25, 74, 0.301);
+}
 
+.cardi2 {
+   background-color: rgba(180, 238, 126, 0.281);
+}
+
+.cardi3 {
+   background-color: rgba(16, 163, 163, 0.281);
+}
+
+.cardi4 {
+   background-color: rgba(130, 52, 175, 0.288);
+}
 
 /***********************************  Media  ***************************************************/
 @media(max-width:768px) {
