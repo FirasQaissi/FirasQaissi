@@ -191,6 +191,61 @@ h3 {
    .hello2 {
       margin-top: 18% !important;
    }
+
+   .pre1 {
+      width: 175px;
+      height: 175px;
+   }
+
+   .imgprmo3 {
+      width: 200px;
+      height: 200px;
+   }
+
+   .imgpromo4 {
+      width: 220px;
+      height: 150px;
+
+   }
+
+   .imgpromo5 {
+      width: 220px;
+      height: 150px;
+
+   }
+
+   .imgpromo6 {
+      width: 220px;
+      height: 150px;
+
+   }
+
+   .promoimg {
+      width: 220px;
+      height: 150px;
+   }
+
+   .preee {
+      width: 100% !important;
+
+   }
+
+   .re1 {
+      width: 100% !important;
+      height: 65px;
+      border-radius: 2% !important;
+      font-size: medium;
+      text-align: center;
+
+   }
+
+   .re2 {
+      width: 100% !important;
+      height: 65px;
+      border-radius: 2% !important;
+      font-size: medium;
+      text-align: center;
+   }
 }
 
 /***************************************  Contacts  ****************************************************/
@@ -291,6 +346,7 @@ input {
 
 }
 
+
 .re1 {
    text-decoration: none;
    border: 2px groove rgba(48, 44, 32, 0.904);
@@ -300,7 +356,7 @@ input {
    background-color: rgba(103, 99, 105, 0.555);
    text-align: center;
    font-family: fantasy;
-   width: 80% !important;
+   width: 100% !important;
    padding: 2%;
    margin-left: 10%;
 
@@ -315,7 +371,7 @@ input {
    background-color: rgba(103, 99, 105, 0.555);
    text-align: center;
    font-family: fantasy;
-   width: 80%;
+   width: 100% !important;
    padding: 1.5%;
    margin-left: 10%;
 
