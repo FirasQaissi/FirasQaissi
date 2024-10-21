@@ -96,7 +96,7 @@ label {
 
 @media(max-width:768px) {
     .main {
-        width: 100% !important;
+        width: 100vw !important;
         height: 100vh !important;
 
 
@@ -105,11 +105,11 @@ label {
     .img1 {
         width: 100% !important;
         height: 50% !important;
-        background-position: center center;
+        background-position: center;
         background-size: cover;
         display: flex;
         padding: 1%;
-        text-align: center;
+        margin: auto;
         margin-right: 8%;
 
     }
