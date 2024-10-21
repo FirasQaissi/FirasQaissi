@@ -439,8 +439,12 @@ input {
    .proinfo button {
       width: 100%;
       height: 100%;
-      font-size: 12px;
+      font-size: 10px;
       margin: auto;
+   }
+
+   .proinfo h4 {
+      font-size: 20px;
    }
 
    .imgprmo3 {
