@@ -37,6 +37,9 @@
    font-style: inherit;
    color: rgba(4, 3, 5, 0.589);
    font-weight: bold;
+   font-family: monospace;
+   box-shadow: 4px 4px rgba(13, 122, 13, 0.911);
+
 }
 
 /*********************************************  Portfolio   *********************************************/
@@ -384,6 +387,23 @@ input {
 .img2 {
 
    margin: auto;
+}
+
+.proinfo h1 {
+   background-image: linear-gradient(rgb(110, 110, 119), rgba(51, 36, 36, 0.685));
+   font-family: fantasy;
+   border-right: 15px solid silver;
+   border-left: 15px solid silver;
+   color: rgba(226, 234, 240, 0.438);
+}
+
+.proinfo h4 {
+
+   color: rgb(7, 7, 7);
+   font-family: monospace;
+   text-shadow: 2px 2px rgba(70, 104, 47, 0.301);
+   font-size: 25px;
+
 }
 
 /****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
