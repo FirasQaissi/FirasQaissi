@@ -97,7 +97,7 @@ input {
     .main {
 
         width: 100vw;
-        height: 100vh;
+
 
     }
 
@@ -106,15 +106,15 @@ input {
         height: 100vh;
         text-align: center;
         padding: 5%;
-        padding-top: 40%;
+        padding-top: 2%;
     }
 
     .formbox,
     .form {
         display: flex !important;
         flex-direction: column !important;
-        margin-top: 7%;
-        height: 75%;
+        margin-top: 5%;
+        height: 80%;
     }
 
     .formbox {
