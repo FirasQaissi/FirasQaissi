@@ -323,6 +323,25 @@ input {
    transition: .9s;
 }
 
+.img2 {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+}
+
+.imgprmo3 {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+}
+
+.imgpromo4 {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+}
+
+.imgpromo5 {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+}
+
+.imgpromo6 {
+   border: 5px solid rgba(22, 4, 4, 0.384);
+}
 
 @media(max-width:768px) {
    .proinfo {
