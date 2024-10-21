@@ -281,7 +281,7 @@ input {
    }
 }
 
-/*********************************  promo-projects(Presentation)  **********************************************/
+/***************************************************  promo-projects(Presentation)  ********************************************************************/
 .proinfo {
    margin: auto;
    background-image: url(./imgs-1/Website-Design-Background-Feb-09-2022-03-13-55-73-AM.png);
@@ -293,6 +293,7 @@ input {
 
 .promoimg {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 
 }
 
@@ -340,37 +341,42 @@ input {
 
 .img2 {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 }
 
 .imgprmo3 {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 }
 
 .imgpromo4 {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 }
 
 .imgpromo5 {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 }
 
 .imgpromo6 {
    border: 5px solid rgba(22, 4, 4, 0.384);
+   margin: auto;
 }
 
 .pre1 {
    display: flex;
    flex-direction: column;
 
+
 }
 
 .img2 {
-   width: 35%;
-   height: 68%;
+
    margin: auto;
 }
 
-/********************************* Media  promo-projects(Presentation) Media  **********************************************/
+/****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
 
 @media(max-width:768px) {
    .proinfo {
