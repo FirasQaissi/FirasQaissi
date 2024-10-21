@@ -106,20 +106,18 @@ input {
         height: 100vh;
         text-align: center;
         padding: 5%;
-        padding-top: 2%;
+        padding-top: 1%;
     }
 
     .formbox,
     .form {
         display: flex !important;
         flex-direction: column !important;
-        margin-top: 5%;
+
         height: 80%;
     }
 
-    .formbox {
-        margin-bottom: 20% !important;
-    }
+    .formbox {}
 
     #label1,
     #label2 {
