@@ -22,7 +22,7 @@
 }
 
 .navbrand {
-   background-image: url(/imgs-1/89786426_10157085019293106_3196669340082503680_n.jpg);
+   background-image: url(./imgs-1/89786426_10157085019293106_3196669340082503680_n.jpg);
    background-size: cover;
    width: 62px;
    height: 62px;
@@ -43,7 +43,7 @@
 
 .Portfolio {
 
-   background-image: url(/imgs-1/12046.jpg);
+   background-image: url(./imgs-1/12046.jpg);
    width: 60%;
    height: 400px;
    background-size: cover;
@@ -187,7 +187,7 @@ h3 {
    display: flex;
    width: 85%;
    height: 600px;
-   background-image: url(/imgs-1/pexels-bradleyhook-123335.jpg);
+   background-image: url(./imgs-1/pexels-bradleyhook-123335.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
