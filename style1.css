@@ -267,7 +267,7 @@ input {
 /*********************************  promo-projects(Presentation)  **********************************************/
 .proinfo {
    margin: auto;
-   background-image: url(/imgs-1/Website-Design-Background-Feb-09-2022-03-13-55-73-AM.png);
+   background-image: url(./imgs-1/Website-Design-Background-Feb-09-2022-03-13-55-73-AM.png);
    background-size: cover;
    background-position-x: center;
    width: 100%;
@@ -361,7 +361,7 @@ input {
 /**********************************  -project1-1-  *********************************************/
 
 .mainbox {
-   background-image: url(/imgs-1/Path1.png);
+   background-image: url(./imgs-1/Path1.png);
 
    background-size: cover;
 
