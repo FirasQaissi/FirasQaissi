@@ -125,11 +125,11 @@ h3 {
 }
 
 .cardi {
-   background-color: rgba(116, 25, 74, 0.301);
+   background-image: linear-gradient(rgb(178, 184, 147), rgb(173, 138, 180));
 }
 
 .cardi2 {
-   background-color: rgba(180, 238, 126, 0.281);
+   background-image: linear-gradient(silver, rgba(147, 185, 85, 0.411));
 }
 
 .cardi3 {
@@ -137,7 +137,19 @@ h3 {
 }
 
 .cardi4 {
-   background-color: rgba(130, 52, 175, 0.288);
+   background-image: linear-gradient(silver, rgb(212, 196, 144));
+}
+
+.cardi5 {
+   background-image: linear-gradient(rgba(118, 118, 139, 0.377), rgba(68, 110, 68, 0.548));
+}
+
+.cardi6 {
+   background-image: linear-gradient(rgb(235, 233, 233), rgba(57, 113, 218, 0.274));
+}
+
+.allimgs img {
+   opacity: 0.77;
 }
 
 /***********************************  Media  ***************************************************/
