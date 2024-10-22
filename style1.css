@@ -236,6 +236,11 @@ h3 {
 
 .formtext h1 {
    text-decoration: overline;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.formtext h4 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
 
 .formtext {
@@ -246,7 +251,7 @@ h3 {
    align-items: center;
    flex-direction: column;
    padding: 3%;
-   font-family: fantasy;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    color: rgba(14, 11, 9, 0.63);
    text-align: center;
 
