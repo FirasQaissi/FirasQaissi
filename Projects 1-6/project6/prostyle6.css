@@ -14,8 +14,8 @@
 }
 
 .box {
-    width: 90%;
-    height: 90vh;
+    width: 95%;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -231,6 +231,8 @@
     border-radius: 50%;
 }
 
+
+
 /************************************** Media Session ******************************************************/
 
 @media(max-width:768px) {
@@ -244,7 +246,8 @@
     }
 
     .main {
-        width: 60%;
+        width: 90%;
+        height: 90vh;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -255,8 +258,8 @@
         display: flex;
         flex-direction: column;
         background-image: url(../project6/img6/Image\ 1.png) !important;
-        width: 150px !important;
-        height: 280px !important;
+        width: 300px !important;
+        height: 150px !important;
         background-size: contain !important;
         justify-content: center;
         align-items: center;
@@ -305,11 +308,11 @@
 
     .label1 input {
 
-        width: 100%;
+        width: 140%;
     }
 
     .label2 input {
-        width: 100%;
+        width: 140%;
     }
 
     .textarea {
@@ -335,7 +338,7 @@
 
     .iconbox {
         position: absolute;
-        bottom: -3%;
+        bottom: 1%;
         left: 20%;
     }
 }
