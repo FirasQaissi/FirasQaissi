@@ -221,7 +221,7 @@ textarea {
     }
 
     .boxses {
-        width: 42vh;
+        width: 35vh;
         height: 100%;
         display: grid;
         grid-template-columns: 33% 33% 33% 33%;
