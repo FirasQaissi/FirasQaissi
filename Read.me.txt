@@ -1,0 +1,51 @@
+Project Name: Firas Qaissi
+
+ This site includes a full portfolio page,
+ that includes an explanation of the programmer who made the site and it also includes six different projects,
+ each project is suitable for Desktop as well as standard Smartphones
+
+Firas Qaissi is a beginner-friendly project designed to teach the basics of web development using
+ HTML, CSS, Bootstrap and Sass. 
+
+This project helps new developers understand how to structure and style websites from scratch,
+ focusing on simplicity and clean code practices.
+
+
+
+Table of Contents:
+projects from 1 - 6 
+every project include 1 file of images and 2 types file of html and css,
+		
+Project Overview
+6 parts of projects
+
+Technologies Used
+HTML5: For creating the structure of the web pages.
+CSS3: For styling the website.
+Bootstrap:Bootstrap is commonly used to speed up development and ensure consistency in design across various devices and browsers.
+Sass: For compiling organized and reusable CSS.
+
+Installation:
+To set up this project on your local machine:
+
+https://firasqaissi.github.io/FirasQaissi/Index.html
+Open the index.html file in a browser to view your website.
+
+Features
+Simple HTML structure for easy understanding
+CSS organized with Sass for scalable styling
+Bootstrap structure and styling
+Responsive design for all screen sizes
+Beginner-friendly code with clear documentation
+
+Usage
+
+16.5 Mbyte.
+
+Contributing
+	
+HackerU, Yenothan&Oded
+
+License
+Qaissi.WEB
+Let me know if you'd like to add more details or change anything!
