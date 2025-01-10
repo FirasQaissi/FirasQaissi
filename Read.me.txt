@@ -22,7 +22,7 @@ Project Overview
 Technologies Used
 HTML5: For creating the structure of the web pages.
 CSS3: For styling the website.
-Bootstrap:Bootstrap is commonly used to speed up development and ensure consistency in design across various devices and browsers.
+Bootstrap: Bootstrap is commonly used to speed up development and ensure consistency in design across various devices and browsers.
 Sass: For compiling organized and reusable CSS.
 
 Installation:
