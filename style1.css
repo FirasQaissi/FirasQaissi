@@ -1,5 +1,9 @@
 /***************************************  Header   ***********************************************/
-
+body {
+   background-image: url(./imgs-1/vecteezy_2.png);
+   background-size: contain;
+   background-position: center;
+}
 
 .img1 {
    margin-top: -5px;
@@ -43,14 +47,24 @@
 
 }
 
+/*********************************************  Icons  *********************************************/
+.icons img {
+   border-radius: 30px;
+}
+
+
 /*********************************************  Portfolio   *********************************************/
 
 .Portfolio {
 
-   background-image: url(./imgs-1/12046.jpg);
+   background-image: url(./imgs-1/sec2.png);
+
    width: 60%;
    height: 400px;
    background-size: cover;
+   opacity: 0.80;
+
+
 }
 
 .h1 {
@@ -89,6 +103,9 @@
    padding-right: 5% !important;
    font-family: 'Courier New', Courier, monospace;
    font-size: large;
+
+
+
 }
 
 #cv {
@@ -121,6 +138,7 @@
    font-family: fantasy;
    padding-bottom: 3%;
    text-decoration: overline;
+   background-image: linear-gradient(rgb(224, 240, 9), rgb(204, 117, 35));
 }
 
 h3 {

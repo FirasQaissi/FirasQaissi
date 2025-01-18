@@ -1,5 +1,10 @@
 /***************************************  Header   ***********************************************/
+body {
+    background-image: url(./imgs-1/Hexagon-dotted-connect-line-background.jpg);
+    background-size: contain;
 
+
+}
 
 .img1 {
     margin-top: -5px;
@@ -432,6 +437,10 @@ input {
     text-shadow: 2px 2px rgba(70, 104, 47, 0.301);
     font-size: 25px;
 
+}
+
+.iconsJavaS img {
+    border-radius: 35%;
 }
 
 /****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
