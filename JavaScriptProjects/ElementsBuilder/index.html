@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            direction: rtl;
+            background-color: rgba(75, 75, 45, 0.267);
+
+
+        }
+
+        #aba {
+            width: 95%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+
+
+
+        }
+
+        #left {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            direction: ltr;
+            background-color: rgb(195, 199, 199);
+            border-radius: 20px;
+            justify-content: center;
+
+        }
+
+        #main {
+
+            background-image: url(pexels-photo-235985.jpeg);
+            direction: rtl;
+            border: 2px solid black;
+
+            margin: auto;
+
+        }
+
+        #selector {
+
+            width: auto;
+            text-align: center;
+
+        }
+
+        #add {
+            border-radius: 35px;
+            border: none;
+            width: 50px;
+        }
+
+        #save {
+            border-radius: 35px;
+            border: none;
+            width: 50px;
+        }
+
+        #submits {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="aba">
+
+
+        <div id="main">
+
+
+
+            <div id="inputs">
+                <select name="" id="selector">
+                    <option disabled value="" selected>Select element</option>
+                    <option value="Div">Div</option>
+                    <option value="h1">h1</option>
+                    <option value="h2">h2</option>
+                    <option value="p">p</option>
+                    <option value="span">span</option>
+                    <option value="a">a</option>
+                    <option value="button">button</option>
+                    <option value="label">label</option>
+                    <option value="input">input</option>
+
+
+                </select>
+
+            </div>
+
+
+
+            <div id="submits">
+
+                <input id="add" type="submit" value="Add" onclick=" addone()">
+                <input id="save" type="submit" value="delete" onclick=" remove()">
+
+            </div>
+
+
+
+
+            <div id="left">
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

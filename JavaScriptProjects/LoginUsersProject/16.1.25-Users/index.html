@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users Mangement</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" type="module" defer></script>
+</head>
+
+<body dir="ltr">
+
+    <div id="main1">
+        <div class="container-register">
+            <h1>Register</h1>
+            <form class="register-form">
+
+                <div class="form-control">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" />
+                </div>
+                <div class="form-control">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" />
+                </div>
+                <div class="form-control">
+                    <label for="register-email">E-mail</label>
+                    <input type="email" name="email" id="register-email" />
+                </div>
+                <div class="form-control">
+                    <label for="register-password">Password</label>
+                    <input type="password" name="password" id="register-password" />
+                </div>
+                <input id="signUp-btn" type="submit" value="SignUp">
+            </form>
+        </div>
+
+        <div class="container-login">
+            <h1>Sign-in</h1>
+            <form class="login-form">
+                <div class="form-control">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" name="email" id="login-email" />
+                </div>
+                <div class="form-control">
+                    <label for="login-password">Password</label>
+                    <input type="password" name="password" id="login-password" />
+                </div>
+                <button id="connect-btn" type="submit">Connect</button>
+            </form>
+        </div>
+       
+        <div class="container-users">
+
+            <h1>Users:</h1>
+            <table id="users-table"> <br>
+
+                <thead>
+
+                    <tr>
+
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>E-mail </th>
+
+                        <th>Password</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="users-table-body">
+                    <!-- content from js -->
+                </tbody>
+            </table>
+        </div>
+        <div id="editing">
+
+        </div>
+    </div>
+</body>
+
+</html>

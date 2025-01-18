@@ -1,0 +1,41 @@
+@media(max-width:768px) {
+    input {
+        width: 100px;
+        height: 38px;
+        margin-top: 5%;
+
+    }
+
+    select {
+        width: 55px;
+        height: 20px;
+    }
+
+    #main {
+
+        width: 95vw !important;
+        height: 95vh !important;
+
+    }
+
+    textarea {
+        width: 55px;
+        height: 20px;
+    }
+
+    #inputs {
+        height: 70vh !important;
+        width: 38vw !important;
+        margin-bottom: 40% !important;
+        margin: auto;
+    }
+
+
+}
+
+label {
+    color: rgba(233, 194, 123, 0.836) !important;
+    font-family: cursive;
+    font-size: 25px;
+    margin: 2%;
+}

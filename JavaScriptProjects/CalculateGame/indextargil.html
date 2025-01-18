@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .first {
+
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 55vh;
+            margin: auto;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(45, 94, 200, 0.2);
+            margin-top: 5%;
+            background-image: url(./home-green.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        #mainText {
+            font-style: oblique;
+            text-decoration: underline;
+            color: rgba(75, 84, 81, 0.831);
+        }
+
+        #startbtn {
+            color: rgba(40, 36, 31, 0.717);
+            margin: auto;
+            font-size: 65px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: none;
+            background-color: rgba(250, 235, 215, 0);
+
+        }
+
+        #startbtn:hover {
+            background-color: rgba(107, 116, 167, 0.811);
+            transition: 1s;
+        }
+
+        #p1 {
+            text-decoration: dotted;
+            font-size: 45px;
+            color: rgba(32, 99, 131, 0.704);
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #q1 {
+            font-size: 70px;
+            color: rgba(77, 96, 53, 0.708);
+            margin-top: -2%;
+        }
+
+        #answerInput {
+            block-size: 35px;
+            background-color: rgba(38, 71, 60, 0.327);
+            text-align: center;
+            font-size: 25px;
+            margin-top: -10%;
+            border: 2px solid rgba(192, 192, 192, 0);
+            border-radius: 20px;
+        }
+
+        #h2q {
+            margin-bottom: 03%;
+
+        }
+
+        #corecct {
+            font-size: 25px;
+            margin-top: -0.2%;
+            border: none;
+
+        }
+
+        #ccc {
+            color: rgba(29, 112, 125, 0.886);
+            font-size: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: none;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class=" first ">
+
+        <h1 id="mainText">ْCalculator Game</h1>
+        <p id="p1">Get "100$" If You Solve "10" Questions</p>
+        <button id="startbtn" onclick="calc()">Start</button>
+        <p></p>
+
+        <br>
+
+
+    </div>
+
+    <script src="./js2.js" defer></script>
+</body>
+
+</html>
