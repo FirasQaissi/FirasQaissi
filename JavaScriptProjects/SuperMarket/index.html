@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Bud</title>
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <!-- form -->
+    <video autoplay muted loop id="myVideo">
+        <source src="./2583469-uhd_3840_2160_24fps.mp4" type="video/mp4">
+    </video>
+    <section class="section-center">
+
+        <form class="grocery-form">
+            <p class="alert"></p>
+            <h3>Jerusalem Fruits MarketShop</h3>
+            <div class="form-control" style="position: relative;">
+                <input type="text" id="grocery" placeholder="Apple ,Watermelon,Lime" />
+                <button type=" submit" class="submit-btn">Add</button>
+            </div>
+        </form>
+        <!-- list -->
+        <div class="grocery-container">
+            <div class="grocery-list"></div>
+            <button class="clear-btn">clear items</button>
+        </div>
+
+    </section>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
