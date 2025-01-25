@@ -1,58 +1,92 @@
-#main1 {
-    width: 90vw;
-    height: auto;
-    margin: auto;
-    background-image: url(./loginWallpaper.jpg);
-    background-size: cover;
-    color: rgba(235, 235, 235, 0.952);
-    font-family: fantasy;
+* {
+    margin: 0.5;
+    padding: 0;
+    box-sizing: border-box;
     border-radius: 20px;
-
 
 }
 
-.container-register,
+#main1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: auto;
+    height: 98vh;
+    background-image: url(./LoginWallpaper2.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.container-register {
+    flex-direction: column;
+    display: flex;
+    height: 80vh;
+
+}
+
+.register-form,
 .container-login {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 3%;
+    padding: 10px;
 
-
-    h1 {
-        margin: auto;
-    }
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+.container-register h1 {
+    color: rgb(30, 182, 83);
+    font-size: 55px;
+    font-family: cursive;
+
+}
+
 
 input {
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+
     border-radius: 20px;
-    height: 25px;
-}
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0.5);
 
-
-.register-form,
-.login-form {
-    display: flex;
-    width: 80vw;
-    gap: 20px;
-    padding: 2%;
-    justify-content: center;
-    margin: auto;
 }
 
 .form-control {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-family: fantasy;
+
+    margin-left: 15%;
 }
 
-#users-table {
-    width: 55vw;
-    color: rgb(42, 156, 67);
-    font-size: x-large;
-    margin-top: 10%;
 
+
+
+
+
+#users-table {
+    width: 48vw;
+    color: rgb(18, 20, 18);
+    font-size: x-large;
+    margin-top: 0%;
+    margin: auto;
+    text-align: center;
 
     thead {
-        background-color: #f1f1f1;
+        background-color: #b9b1b1;
 
     }
 
@@ -61,27 +95,52 @@ input {
 
 tr {
     border-radius: 40px;
+    color: rgb(3, 4, 3);
+    align-items: center;
+
 }
 
 .container-users {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: start;
+    border: 2px solid rgb(10, 9, 9);
+    margin-top: 12%;
+    margin-left: 8%;
+    width: 55%;
 
     h1 {
-        color: rgb(42, 156, 67);
+
+        color: rgb(8, 11, 9);
+        font-size: 40px;
+        font-family: cursive;
+
 
     }
 }
 
-#connect-btn,
-#signUp-btn {
+#connect-btn {
     border-radius: 15px;
-    background-color: beige;
+
     color: rgb(47, 204, 131);
     font-family: fantasy;
     font-size: 30px;
-    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+#signUp-btn {
+    border-radius: 15px;
+
+    color: rgb(47, 204, 131);
+    font-family: fantasy;
+    font-size: 35px;
+    margin-left: 20%;
+    cursor: pointer;
+
+
 }
 
 body {

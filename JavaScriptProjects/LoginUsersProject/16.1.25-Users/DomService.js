@@ -12,23 +12,29 @@ const drawTableRows = (users) => {
         <td>${user.lastName}</td>
         <td>${user.email}</td>
         <td>${user.password}</td>
-        <td>${user.isLogedIn ? 'מחובר' : 'מנותק'}</td>
-        `;
+        <td>${user.isLogedIn ? 'online' : 'ofline'}</td>
+        `
+        user.isLogedIn ? row.style.backgroundColor = 'lightgreen' : row.style.backgroundColor = 'lightcoral'
+            ;
+
         const logoutBtn = document.createElement('button');
-        logoutBtn.textContent = 'התנתקות';
+        logoutBtn.textContent = 'Logout';
         logoutBtn.addEventListener('click', () => {
             User.logout(user.id);
+
         });
+        logoutBtn.style.backgroundColor = 'red';
 
         const deleteBtn = document.createElement('button');
-        deleteBtn.textContent = 'מחיקה';
+        deleteBtn.textContent = 'Delete';
         deleteBtn.addEventListener('click', () => {
             User.removeUser(user.id);
         });
+        deleteBtn.style.backgroundColor = 'blue';
 
         // you should complete this part
         const editButton = document.createElement('button');
-        editButton.textContent = 'עריכה';
+        editButton.textContent = 'Edit';
         editButton.addEventListener('click', () => {
             const divEdit = document.getElementById('editing')
             divEdit.style.gap = '15px'
@@ -72,7 +78,7 @@ const drawTableRows = (users) => {
 
 
             })
-
+            editButton.style.backgroundColor = 'green'
 
         });
 
