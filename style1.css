@@ -176,7 +176,22 @@ h3 {
 }
 
 /***********************************  Java Scripts Projects Styling  ***************************************************/
+#javascriptProjects {
+   text-align: center !important;
+   font-family: 'Courier New', Courier, monospace;
+   background-image: url();
+}
 
+#jsCard {
+   align-items: center !important;
+   
+}
+
+#imgsMargins {
+   display: flex;
+   justify-content: center;
+   background-image: url();
+}
 
 
 #imgsMargins img {

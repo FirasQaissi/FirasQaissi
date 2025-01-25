@@ -119,7 +119,7 @@ body {
 
 #projects {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: center !important;
 }
 
 .h1project {
@@ -162,7 +162,9 @@ h3 {
 }
 
 /***********************************  Java Scripts Projects Styling  ***************************************************/
-
+#javascriptProjects {
+    text-align: center !important;
+}
 
 
 #imgsMargins img {
