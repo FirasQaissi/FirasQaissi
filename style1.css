@@ -172,19 +172,27 @@ h3 {
 }
 
 .allimgs img {
-   opacity: 0.77;
+   opacity: 1;
 }
 
 /***********************************  Java Scripts Projects Styling  ***************************************************/
 #javascriptProjects {
    text-align: center !important;
    font-family: 'Courier New', Courier, monospace;
-   background-image: url();
+
 }
 
-#jsCard {
+.jsCard1,
+.jsCard2,
+.jsCard3,
+.jsCard4,
+.jsCard5,
+.jsCard6 {
    align-items: center !important;
-   
+   background-image: url(./imgs-1/firstChoice.jpeg);
+   background-size: cover;
+   background-position: center center;
+
 }
 
 #imgsMargins {
