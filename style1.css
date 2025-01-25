@@ -175,11 +175,31 @@ h3 {
    opacity: 1;
 }
 
+
 /***********************************  Java Scripts Projects Styling  ***************************************************/
 #javascriptProjects {
    text-align: center !important;
    font-family: 'Courier New', Courier, monospace;
 
+}
+
+#javascriptProjects a {
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.616);
+   font-size: 22px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   background-color: rgba(160, 168, 168, 0.87);
+   border-radius: 30px;
+   padding: 12%;
+   margin: 2%;
+   box-shadow: 2px 2px rgba(13, 136, 136, 0.774);
+}
+
+#javascriptProjects a:hover {
+   background-color: rgba(13, 136, 136, 0.774);
+   transform: scale(1.5);
+   transition: .9s;
 }
 
 .jsCard1,
@@ -189,9 +209,12 @@ h3 {
 .jsCard5,
 .jsCard6 {
    align-items: center !important;
-   background-image: url(./imgs-1/firstChoice.jpeg);
+   background-image: url(./imgs-1/CardWallPaper.jpg);
    background-size: cover;
    background-position: center center;
+   font-family: fantasy;
+   font-size: 18px;
+   color: rgba(24, 22, 19, 0.756);
 
 }
 
