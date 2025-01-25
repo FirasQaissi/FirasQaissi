@@ -473,6 +473,17 @@ input {
 
     }
 
+    .pre1 {
+        width: 50% !important;
+        height: 60% !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
 
 
     .img2 {
