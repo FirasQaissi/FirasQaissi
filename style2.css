@@ -460,7 +460,7 @@ input {
 
 /****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
 
-@media(max-width:768px) {
+@media(max-width:430px) {
     .proinfo {
         display: flex;
         flex-wrap: wrap;

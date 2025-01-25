@@ -186,7 +186,7 @@ h3 {
 #javascriptProjects a {
    text-decoration: none;
    color: rgba(0, 0, 0, 0.616);
-   font-size: 22px;
+   font-size: 20px;
    font-family: 'Courier New', Courier, monospace;
    font-weight: bold;
    background-color: rgba(160, 168, 168, 0.87);
@@ -198,7 +198,7 @@ h3 {
 
 #javascriptProjects a:hover {
    background-color: rgba(13, 136, 136, 0.774);
-   transform: scale(1.5);
+   transform: scale(1.4);
    transition: .9s;
 }
 
