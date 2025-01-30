@@ -35,11 +35,6 @@ for (let q1 = 1; q1 <= 1; q1++) {
 
 
 
-
-
-
-
-
 let main = () => {
     const questions = [['1+1'], ['2+2'], ['3+3'], ['4*4'], ['6-2']]
     for (let i = 0; i < questions.length; i++) {

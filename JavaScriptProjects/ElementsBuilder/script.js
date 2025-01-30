@@ -14,8 +14,8 @@ main.style.borderRadius = '20px'
 const inputs = document.getElementById('inputs')
 
 inputs.style.display = 'flex'
-inputs.style.width = '30%'
-inputs.style.height = '80vh'
+inputs.style.width = '50vw'
+inputs.style.height = '85vh'
 inputs.style.flexDirection = 'column'
 inputs.style.marginTop = '1%'
 inputs.style.backgroundSize = 'Cover'
@@ -34,7 +34,7 @@ inputs.style.color = 'black'
 const SubmitsDesign = document.getElementById('submits')
 SubmitsDesign.style.display = 'flex'
 SubmitsDesign.style.flexDirection = 'row'
-SubmitsDesign.style.width = '20%'
+SubmitsDesign.style.width = '10%'
 SubmitsDesign.style.height = '10vh'
 SubmitsDesign.style.justifyContent = 'Center'
 SubmitsDesign.style.margin = 'Auto'
@@ -59,6 +59,8 @@ inputs.appendChild(firstInput)
 document.body.appendChild(main)
 firstInput.style.borderRadius = '30px'
 firstInput.placeholder = 'px %'
+firstInput.style.width = '30%'
+firstInput.style.height = '4%'
 
 
 
@@ -73,6 +75,9 @@ secondInput.innerHTML = ''
 inputs.appendChild(secondInput)
 document.body.appendChild(main)
 secondInput.placeholder = ' px %'
+secondInput.style.width = '30%'
+secondInput.style.height = '4%'
+secondInput.style.borderRadius = '30px'
 
 
 const fourthLabel = document.createElement('label')
@@ -85,6 +90,9 @@ const textArea = document.createElement('TextArea')
 textArea.innerHTML = ''
 inputs.appendChild(textArea)
 document.body.appendChild(main)
+textArea.style.width = '30%'
+textArea.style.height = '4%'
+textArea.style.borderRadius = '30px'
 
 const TextColorLabel = document.createElement('label')
 TextColorLabel.innerHTML = 'Font Color '
@@ -97,6 +105,10 @@ fontColorInput.type = 'color'
 fontColorInput.innerHTML = fontColorInput.value
 inputs.appendChild(fontColorInput)
 document.body.appendChild(main)
+fontColorInput.style.width = '30%'
+fontColorInput.style.height = '4%'
+fontColorInput.style.backgroundColor = 'black'
+
 
 const fontSizeLabel = document.createElement('label')
 fontSizeLabel.innerHTML = ' Font Size In px  '
@@ -107,6 +119,9 @@ const fontSizeInput = document.createElement('input')
 fontSizeInput.innerHTML = ''
 inputs.appendChild(fontSizeInput)
 document.body.appendChild(main)
+fontSizeInput.style.width = '30%'
+fontSizeInput.style.height = '4%'
+fontSizeInput.style.borderRadius = '30px'
 
 const kindOfFont = document.createElement('label')
 kindOfFont.innerHTML = ' Kind Of Font  '
@@ -117,6 +132,9 @@ const kindOfFontInput = document.createElement('input')
 kindOfFontInput.innerHTML = ''
 inputs.appendChild(kindOfFontInput)
 document.body.appendChild(main)
+kindOfFontInput.style.width = '30%'
+kindOfFontInput.style.height = '4%'
+kindOfFontInput.style.borderRadius = '30px'
 
 
 
@@ -130,6 +148,10 @@ backgroundColorForDiv2.type = 'color'
 backgroundColorForDiv2.innerHTML = ''
 inputs.appendChild(backgroundColorForDiv2)
 document.body.appendChild(main)
+backgroundColorForDiv2.style.width = '30%'
+backgroundColorForDiv2.style.height = '4%'
+backgroundColorForDiv2.style.borderRadius = '30px'
+backgroundColorForDiv2.style.backgroundColor = 'black'
 
 
 const left = document.getElementById('left')
