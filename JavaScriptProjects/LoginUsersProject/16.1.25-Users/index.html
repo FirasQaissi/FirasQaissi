@@ -13,7 +13,7 @@
     <div id="main1">
 
         <div class="container-register">
-     
+
             <form class="register-form">
 
                 <div class="form-control">
@@ -31,8 +31,9 @@
                 <div class="form-control">
                     <label for="register-password">Password</label>
                     <input type="password" name="password" id="register-password" />
+                    <input id="signUp-btn" type="submit" value="Sign-up" />
                 </div>
-                <input id="signUp-btn" type="submit" value="Sign-up" />
+
             </form>
         </div>
 
@@ -46,14 +47,16 @@
                 <div class="form-control">
                     <label for="login-password">Password</label>
                     <input type="password" name="password" id="login-password" />
+                    <button id="connect-btn" type="submit">Connect</button>
                 </div>
-                <button id="connect-btn" type="submit">Connect</button>
+
             </form>
         </div>
 
         <div class="container-users">
 
             <h1>Users:</h1>
+            <h2 id="changeInfo" ></h2>
             <table id="users-table"> <br>
 
                 <thead>

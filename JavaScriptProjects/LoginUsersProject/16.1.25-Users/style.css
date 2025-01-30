@@ -1,8 +1,8 @@
 * {
-    margin: 0.5;
+    margin: 0.1;
     padding: 0;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 
@@ -11,31 +11,37 @@
     display: flex;
     justify-content: center;
     align-items: start;
-    width: auto;
+    width: 99vw;
     height: 98vh;
     background-image: url(./LoginWallpaper2.jpg);
     background-position: center;
     background-size: cover;
     border: 1px solid black;
+    gap: 20px;
 }
 
 .container-register {
     flex-direction: column;
     display: flex;
-    height: 80vh;
+    height: 42vh;
+    width: 20vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+    margin-left: 1%;
 
 }
 
-.register-form,
+
 .container-login {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 10%;
-    margin-left: 3%;
-    padding: 10px;
-
+    height: 22vh;
+    width: 20vw;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -48,34 +54,14 @@
 
 }
 
-
-input {
-    width: 50%;
-    height: 40px;
-    margin: 10px;
-
-    border-radius: 20px;
-    border: 1px solid black;
-    font-size: 20px;
-    font-family: cursive;
-    background-color: rgba(255, 255, 255, 0.5);
-
-}
-
 .form-control {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: x-large;
     font-family: fantasy;
-
     margin-left: 15%;
 }
-
-
-
-
-
 
 #users-table {
     width: 48vw;
@@ -89,9 +75,18 @@ input {
         background-color: #b9b1b1;
 
     }
-
-
 }
+
+#editing {
+    border-radius: 40px;
+    color: rgb(3, 4, 3);
+    align-items: center;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 10%;
+}
+
+
 
 tr {
     border-radius: 40px;
@@ -107,42 +102,80 @@ tr {
     justify-content: start;
     border: 2px solid rgb(10, 9, 9);
     margin-top: 12%;
-    margin-left: 8%;
-    width: 55%;
 
     h1 {
-
         color: rgb(8, 11, 9);
         font-size: 40px;
         font-family: cursive;
-
-
     }
 }
 
 #connect-btn {
     border-radius: 15px;
-
     color: rgb(47, 204, 131);
     font-family: fantasy;
     font-size: 30px;
     align-items: center;
     cursor: pointer;
-    margin-left: 40%;
+
 }
 
 #signUp-btn {
     border-radius: 15px;
-
     color: rgb(47, 204, 131);
     font-family: fantasy;
-    font-size: 35px;
-    margin-left: 20%;
+    font-size: 28px;
     cursor: pointer;
 
 
 }
 
+input {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    width: 90%;
+    background-color: azure;
+}
+
 body {
     background-color: azure;
+}
+
+
+@media screen and (max-width: 768px) {
+    #main1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .container-register,
+    .container-login {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    #users-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #connect-btn,
+    #signUp-btn {
+        font-size: 1.2rem;
+        padding: 10px;
+
+    }
 }

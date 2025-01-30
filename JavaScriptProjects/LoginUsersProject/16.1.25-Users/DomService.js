@@ -15,26 +15,39 @@ const drawTableRows = (users) => {
         <td>${user.isLogedIn ? 'online' : 'ofline'}</td>
         `
         user.isLogedIn ? row.style.backgroundColor = 'lightgreen' : row.style.backgroundColor = 'lightcoral'
+
+        row.style.fontFamily = 'cruze'
             ;
 
         const logoutBtn = document.createElement('button');
         logoutBtn.textContent = 'Logout';
-        logoutBtn.addEventListener('click', () => {
-            User.logout(user.id);
 
-        });
-        logoutBtn.style.backgroundColor = 'red';
+            logoutBtn.addEventListener('click', () => {
+                User.logout(user.id);
 
+            });
+            logoutBtn.style.backgroundColor = 'red';
+            logoutBtn.style.color = 'white';
+            logoutBtn.style.width = '85px'
+            logoutBtn.style.height = '25px'
+
+     
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Delete';
         deleteBtn.addEventListener('click', () => {
             User.removeUser(user.id);
         });
         deleteBtn.style.backgroundColor = 'blue';
+        deleteBtn.style.width = '85px'
+        deleteBtn.style.height = '25px'
+        deleteBtn.style.color = 'white';
 
-        // you should complete this part
+
         const editButton = document.createElement('button');
         editButton.textContent = 'Edit';
+        editButton.style.width = '85px'
+        editButton.style.height = '25px'
+        editButton.style.color = 'black';
         editButton.addEventListener('click', () => {
             const divEdit = document.getElementById('editing')
             divEdit.style.gap = '15px'
@@ -65,16 +78,37 @@ const drawTableRows = (users) => {
 
             const submitEdit = document.createElement('input')
             submitEdit.type = 'submit'
+            submitEdit.style.backgroundColor = 'green'
+            submitEdit.style.color = 'white'
+            submitEdit.style.border = 'none'
+            submitEdit.style.padding = '10px 20px'
+            submitEdit.style.borderRadius = '15px'
+            submitEdit.style.cursor = 'pointer'
             divEdit.appendChild(submitEdit)
 
             const changing = []
             submitEdit.addEventListener('click', () => {
-                firstNameinput.value = push(changing)
-
-
-                console.log(this.changing);
-
-
+                user.firstName = firstNameinput.value
+                user.lastName = lastNameInput.value
+                user.email = eMailInput.value
+                user.password = changePasswordEdit.value
+                changing.push(user)
+                localStorage.setItem('users', JSON.stringify(changing))
+                drawTableRows(changing)
+                divEdit.innerHTML = ''
+                if (submitEdit) {
+                    const changeInfo = document.getElementById('changeInfo')
+                    changeInfo.style.backgroundColor = 'green'
+                    changeInfo.style.color = 'white'
+                    changeInfo.style.border = 'none'
+                    changeInfo.style.padding = '10px 20px'
+                    changeInfo.style.borderRadius = '15px'
+                    changeInfo.textContent = 'Info Changed successfully'
+                    setTimeout(() => {
+                        changeInfo.textContent = '';
+                        changeInfo.style.backgroundColor = 'transparent';
+                    }, 3000);
+                }
 
 
             })
