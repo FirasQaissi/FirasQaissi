@@ -67,7 +67,8 @@
     width: 37vw;
     color: rgb(18, 20, 18);
     font-size: x-large;
-    margin-top: 0%;
+    font-family: cursive;
+    margin-bottom: 5%;
     margin: auto;
     text-align: center;
     border-radius: 18px;
@@ -85,24 +86,28 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-right: 40%;
-    top: 29.5rem;
-    right: 71rem !important;
-    width: 22% !important;
+    top: 5rem;
+    border: 1px solid black;
+
+    width: 17% !important;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.5);
-
+    background-color: rgba(123, 161, 73, 0.822);
     border-radius: 20px;
-
-    padding: 4px;
-    font-size: 20px;
+    padding: 2px;
+    font-size: 18px;
     font-family: cursive;
     color: rgb(8, 11, 9);
     text-align: center;
 
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translatex(50%);
+    transform: rotateZ('angle');
+    transform: scale(1.1);
 
-
-
+    transition: all 0.5s ease-in-out;
+    transform: rotateZ('angle');
+    transform: scale(1.1);
 }
 
 
