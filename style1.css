@@ -3,7 +3,9 @@ body {
    background-image: url(./imgs-1/vecteezy_2.png);
    background-size: contain;
    background-position: center;
+   zoom: 0.8;
 }
+
 
 .img1 {
    margin-top: -5px;
