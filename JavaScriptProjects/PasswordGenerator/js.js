@@ -50,6 +50,10 @@ function generatePassword() {
         alert('Please select atleast one option');
         return;
     }
+    if (lenElement.value >= 31 || lenElement.value <= 3) {
+        alert('Minimum Length:4 , Max:30 .')
+    }
+
     for (let i = password.length; i < len; i++) {
         const x = generateX()
         password += x;
@@ -77,6 +81,7 @@ function generateX() {
         xs.push(getsym());
 
     }
+
     if (xs.length === 0) return '';
 
     return xs[Math.floor(Math.random() * xs.length)];
