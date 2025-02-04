@@ -13,6 +13,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style1.css">
 
+
 </head>
 
 
@@ -455,11 +456,14 @@
         <form class="form" action="">
 
             <label for="text">First name</label>
-            <input type="text" placeholder="">
+            <input type="text" id="fname" placeholder="" name="firstname">
+            <p id="fname-helper"></p>
             <label for="text ">Last name</label>
-            <input type="text " placeholder="">
+            <input type="text " id="lname" placeholder="">
+            <p id="lname-helper"></p>
             <label for="text ">E-mail</label>
-            <input type="email" placeholder="">
+            <input type="email" id="email" placeholder="">
+            <p id="email-helper"></p>
 
             <label class="textarea" for="text">Feedback:</label>
             <textarea name="comment" id="comment"></textarea>
@@ -479,7 +483,7 @@
 
 
 
-
+    <script src="./Code.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

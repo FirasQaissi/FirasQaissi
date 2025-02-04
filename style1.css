@@ -314,6 +314,14 @@ h3 {
 
 }
 
+.error {
+   border-color: red !important;
+}
+
+.yes {
+   border-color: green;
+}
+
 .formtext h1 {
    text-decoration: overline;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
