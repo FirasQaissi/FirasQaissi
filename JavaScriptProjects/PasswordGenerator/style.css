@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #555;
+    background-color: #262527b0;
     background-size: cover;
     color: #f0f0f0;
     background-position: center;
@@ -147,7 +147,7 @@ input[type="checkbox"]:checked::after {
 
     #lenght {
         width: 100%;
-        background-color: #65acacec;
+        background-color: #65acac1a;
     }
 
     input {

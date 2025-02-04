@@ -10,7 +10,7 @@ fname.addEventListener('input', (e) => {
     const value = e.target.value;
     if (value.length === 1 || value.length === 2) {
         fnameHelper.innerText = 'First Name must be at least 3 characters '
-        fnameHelper.style.color = 'red'
+
     } if (!fname.classList.contains('error')) {
         fname.classList.add('error')
     } else {
@@ -23,7 +23,7 @@ lname.addEventListener('input', (e) => {
     const value = e.target.value
     if (value.length <= 2) {
         lnameHelper.innerText = 'Last Name must be at least 3 characters '
-        lnameHelper.style.color = 'red'
+
     } if (!lname.classList.contains('error')) {
         lname.classList.add('error')
     } else {
@@ -47,14 +47,7 @@ email.addEventListener('input', (e) => {
     }
 });
 
-submit.addEventListener('click', () => {
-    if (fnameHelper, lnameHelper, emailHelper === '') {
-        fname.classList.add('yes')
-        lname.classList.add('yes')
-        email.classList.add('yes')
 
-    }
-})
 
 
 
