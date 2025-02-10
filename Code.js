@@ -24,7 +24,7 @@ lname.addEventListener('input', (e) => {
     const value = e.target.value
     if (value.length <= 2) {
         lnameHelper.innerText = 'Last Name must be at least 3 characters '
-        lnameHelper.style.color = 'red'
+        fnameHelper.style.color = 'red'
 
     } if (!lname.classList.contains('error')) {
         lname.classList.add('error')
