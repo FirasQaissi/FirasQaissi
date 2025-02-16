@@ -1,0 +1,122 @@
+body {
+    background-image: url(./icons/vector-abstract-financial-chart-with-uptrend-line-graph-and-numbers-in-stock-market-on-gradient-white-color-background.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+section {
+    text-align: center;
+    background-color: rgba(183, 188, 189, 0);
+    width: 77%;
+    margin: auto;
+    margin-bottom: 2%;
+    border: 1px solid;
+    font-family: "Concert One", serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: x-large;
+    text-shadow: 12px 12px 12px rgb(87, 83, 83);
+    border-radius: 25px;
+   
+}
+
+
+.main,
+.main2,
+.main3,
+.main4,
+.main5 {
+    width: 90%;
+    height: auto;
+    background-color: rgba(51, 48, 46, 0.171);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 50px;
+    border: 1px solid sandybrown;
+    gap: 1%;
+}
+
+#Bitcoin,
+#eth,
+#Xrp {
+    width: 20vw !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    column-gap: 5%;
+}
+
+
+img {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    margin-top: 1%;
+    margin: auto;
+}
+
+.main2 img {
+    border-radius: 100px;
+}
+
+.main3,
+.main4,
+.main5 img {
+    border-radius: 100px;
+}
+
+
+.usdils,
+.usdils2,
+.usdils3,
+.usdils4,
+.usdils5,
+.usdils6,
+.usdils7,
+.usdils8,
+.usdils9,
+.usdils10,
+.usdils11,
+.usdils12,
+.usdils13,
+.usdils14 {
+    display: none;
+    color: rgba(101, 111, 112, 0.973);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Concert One", serif;
+
+}
+
+#inShekels {
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    color: rgba(255, 255, 255, 0.863);
+    background: linear-gradient(135deg, rgb(65, 68, 58), rgb(14, 65, 133));
+    font-family: "Concert One", sans-serif;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* אפקט hover */
+#inShekels:hover {
+    background: linear-gradient(135deg, rgb(158, 205, 20), rgb(110, 160, 15));
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+/* אפקט לחיצה */
+#inShekels:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

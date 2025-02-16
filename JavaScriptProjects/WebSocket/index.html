@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+    <script src="./code.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Concert+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <h1>Welcome To Our MarketCap Cryptocurrency Market Prices</h1>
+        <h2> Refreshing Prices Every Second !</h2>
+        <h2> Prices in $ </h2>
+        <button id="inShekels">Convert To ILS</button>
+        <button id="inShekels">Sign-in</button>
+        <button id="inShekels">Trade</button>
+        <button id="inShekels">Buy</button>
+        <button id="inShekels">Sell</button>
+    </section>
+    <div class="main">
+
+        <img src="./icons/Bitcoin.png" alt="">
+        <div id="Bitcoin"><br>
+            <h3>(BTC-USDT)</h3>
+            <ul class="Bitcoin-price">
+
+            </ul>
+            <span class="usdils">USD↔ILS</span>
+            <span id="afterConvert"></span>
+
+            <br>
+
+        </div>
+
+
+        <img src="./icons/Eth.png" alt="">
+        <div id="eth"><br>
+            <h3>(ETH - USDT)</h3>
+            <ul class="eth-price">
+
+            </ul>
+            <span class="usdils2">USD↔ILS</span>
+            <span id="afterConvert2"></span>
+
+        </div>
+
+
+        <img src="./icons/Xrp.png" alt="">
+        <div id="Xrp"><br>
+            <h3>(XRP - USDT)</h3>
+            <ul class="xrp-price">
+
+            </ul>
+            <span class="usdils3">USD↔ILS</span>
+            <span id="afterConvert3"></span>
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="main2">
+        <img src="./icons/Solona.png" alt="">
+        <div id="Bitcoin"><br>
+            <h3>(Solona-USDT)</h3>
+            <ul class="sol-price">
+
+            </ul>
+            <span class="usdils4">USD↔ILS</span>
+            <span id="afterConvert4"></span>
+        </div>
+
+        <img src="./icons/BNB.png" alt="">
+        <div id="eth"><br>
+            <h3>(BNB - USDT)</h3>
+            <ul class="bnb-price">
+
+            </ul>
+            <span class="usdils5">USD↔ILS</span>
+            <span id="afterConvert5"></span>
+        </div>
+
+
+        <img src="./icons/Dog.png" alt="">
+        <div id="Xrp"><br>
+            <h3>(Doge - USDT)</h3>
+            <ul class="dog-price">
+
+            </ul>
+            <span class="usdils6">USD↔ILS</span>
+            <span id="afterConvert6"></span>
+        </div>
+
+    </div>
+    <br><br>
+
+
+    <div class="main3">
+        <img src="./icons/Cardano.png" alt="">
+        <div id="Bitcoin"><br>
+            <h3>(Cardano-USDT)</h3>
+            <ul class="car-price">
+
+            </ul>
+            <span class="usdils7">USD↔ILS</span>
+            <span id="afterConvert7"></span>
+        </div>
+
+        <img src="./icons/Tron.png" alt="">
+        <div id="eth"><br>
+            <h3>(Tron- USDT)</h3>
+            <ul class="trx-price">
+
+            </ul>
+            <span class="usdils8">USD↔ILS</span>
+            <span id="afterConvert8"></span>
+        </div>
+
+
+        <img src="./icons/Chain.png" alt="">
+        <div id="Xrp"><br>
+            <h3>(ChainLink - USDT)</h3>
+            <ul class="link-price">
+
+            </ul>
+            <span class="usdils8">USD↔ILS</span>
+            <span id="afterConvert9"></span>
+        </div>
+
+    </div>
+
+    <br><br>
+    <div class="main4">
+        <img src="./icons/Ava.png" alt="">
+        <div id="Bitcoin"><br>
+            <h3>(Avalanche
+                -USDT)</h3>
+            <ul class="avax-price">
+
+            </ul>
+            <span class="usdils9">USD↔ILS</span>
+            <span id="afterConvert10"></span>
+        </div>
+
+        <img src="./icons/Pol.png" alt="">
+        <div id="eth"><br>
+            <h3>(Polkadot- USDT)</h3>
+            <ul class="pol-price">
+
+            </ul>
+            <span class="usdils10">USD↔ILS</span>
+            <span id="afterConvert11"></span>
+        </div>
+
+
+        <img src="./icons/Hbar.png" alt="">
+        <div id="Xrp"><br>
+            <h3>(Hedera - USDT)</h3>
+            <ul class="HBAR-price">
+
+            </ul>
+            <span class="usdils11">USD↔ILS</span>
+            <span id="afterConvert12"></span>
+        </div>
+
+    </div>
+
+    <br><br>
+    <div class="main5">
+        <img src="./icons/lite.png" alt="">
+        <div id="Bitcoin"><br>
+            <h3>(Litecoin
+                -USDT)</h3>
+            <ul class="Litecoin-price">
+
+            </ul>
+            <span class="usdils12">USD↔ILS</span>
+            <span id="afterConvert13"></span>
+        </div>
+
+        <img src="./icons/OM.png" alt="">
+        <div id="eth"><br>
+            <h3>(MANTRA- USDT)</h3>
+            <ul class="om-price">
+
+            </ul>
+            <span class="usdils13">USD↔ILS</span>
+            <span id="afterConvert14"></span>
+        </div>
+
+
+        <img src="./icons/uni.png" alt="">
+        <div id="Xrp"><br>
+            <h3>(Hedera - USDT)</h3>
+            <ul class="uni-price">
+
+            </ul>
+            <span class="usdils14">USD↔ILS</span>
+            <span id="afterConvert15"></span>
+        </div>
+
+    </div>
+</body>
+
+</html>
