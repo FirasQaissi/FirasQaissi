@@ -329,9 +329,9 @@ input {
     background-image: url(./imgsForScripts/Screenshot_1-6.png);
     background-size: cover;
     background-position-x: center;
-    width: 100%;
+    width: 100% !important;
     height: 75vh;
-    z-index: 99;
+
 
 }
 
@@ -460,7 +460,7 @@ input {
 
 /****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
 
-@media(max-width:430px) {
+@media(max-width:768px) {
     .proinfo {
         display: flex;
         flex-wrap: wrap;
