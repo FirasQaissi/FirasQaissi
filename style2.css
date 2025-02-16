@@ -460,16 +460,16 @@ input {
 
 /****************************************** Media  promo-projects(Presentation) Media  *****************************************************/
 
-@media(max-width:768px) {
+
+@media (max-width: 768px) {
     .proinfo {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 75vh;
-        background-size: cover;
-        background-position-x: center;
-
-
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center center;
+        padding: 10px;
     }
 
     .pre1 {
@@ -555,8 +555,19 @@ input {
         font-size: medium;
         text-align: center;
     }
+
+    .iconsJavaS {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
+@media (max-width: 480px) {
+    .proinfo {
+        height: auto;
+        padding: 5px;
+    }
+}
 
 
 

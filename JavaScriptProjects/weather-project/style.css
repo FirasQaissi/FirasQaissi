@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  height: 500px;
+  height: auto;
   margin: 0 auto;
   text-align: center;
   background: linear-gradient(135deg, #0e0c0d59, #fcfcff52);
