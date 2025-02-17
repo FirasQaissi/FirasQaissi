@@ -328,9 +328,9 @@ input {
     margin: auto;
     background-image: url(./imgs-1/JAVASCRIPT.png);
     background-size: cover;
-    background-position-x: center;
+    background-position-x: center center;
     width: 100% !important;
-    height: 75vh;
+    height: 80vh;
 
 
 }
@@ -432,6 +432,7 @@ input {
 .img2 {
 
     margin: auto;
+    margin-top: 5%;
     width: 42%;
     height: 60%;
 
