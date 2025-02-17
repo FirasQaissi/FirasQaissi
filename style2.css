@@ -326,7 +326,7 @@ input {
 /***************************************************  promo-projects(Presentation)  ********************************************************************/
 .proinfo {
     margin: auto;
-    background-image: url(./imgsForScripts/Screenshot_1-6.png);
+    background-image: url(./imgs-1/JAVASCRIPT.png);
     background-size: cover;
     background-position-x: center;
     width: 100% !important;
@@ -423,8 +423,8 @@ input {
 }
 
 .img1 {
-    width: 25%;
-    height: 35%;
+    width: 50%;
+    height: 40%;
     margin: auto;
     opacity: 0.8 !important;
 }
@@ -432,8 +432,8 @@ input {
 .img2 {
 
     margin: auto;
-    width: 25%;
-    height: 35%;
+    width: 42%;
+    height: 60%;
 
 }
 
@@ -463,8 +463,8 @@ input {
 
 @media (max-width: 768px) {
     .proinfo {
-        height: auto;
-        width: auto;
+        height: 80% !important;
+        width: 80% !important;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -483,12 +483,15 @@ input {
         margin: auto;
     }
 
+    .img1 {
+        height: 15px !important;
+    }
 
 
     .img2 {
 
-        width: 75% !important;
-        height: 75% !important;
+        width: 60% !important;
+        height: 60% !important;
 
 
 
