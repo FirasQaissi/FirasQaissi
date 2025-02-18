@@ -61,8 +61,8 @@ function calc() {
             let userAnswer = parseInt(document.getElementById('answerInput').value);
             if (userAnswer === corecctResults) {
                 correctAnswers++;
-            }
-            userQuestion++;
+            } else { alert('Insert Answer Please') }
+
             plusMin();
 
         }

@@ -22,16 +22,17 @@ const drawTableRows = (users) => {
         const logoutBtn = document.createElement('button');
         logoutBtn.textContent = 'Logout';
 
-            logoutBtn.addEventListener('click', () => {
-                User.logout(user.id);
+        logoutBtn.addEventListener('click', () => {
+            User.logout(user.id);
 
-            });
-            logoutBtn.style.backgroundColor = 'red';
-            logoutBtn.style.color = 'white';
-            logoutBtn.style.width = '85px'
-            logoutBtn.style.height = '25px'
+        });
+        logoutBtn.style.backgroundColor = 'red';
+        logoutBtn.style.color = 'white';
+        logoutBtn.style.width = '85px'
+        logoutBtn.style.height = '25px'
+        logoutBtn.style.cursor = 'pointer'
 
-     
+
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Delete';
         deleteBtn.addEventListener('click', () => {
@@ -41,6 +42,7 @@ const drawTableRows = (users) => {
         deleteBtn.style.width = '85px'
         deleteBtn.style.height = '25px'
         deleteBtn.style.color = 'white';
+        deleteBtn.style.cursor = 'pointer'
 
 
         const editButton = document.createElement('button');
@@ -48,6 +50,7 @@ const drawTableRows = (users) => {
         editButton.style.width = '85px'
         editButton.style.height = '25px'
         editButton.style.color = 'black';
+        editButton.style.cursor = 'pointer'
         editButton.addEventListener('click', () => {
             const divEdit = document.getElementById('editing')
             divEdit.style.gap = '15px'
