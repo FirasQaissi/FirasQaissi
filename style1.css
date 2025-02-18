@@ -276,6 +276,10 @@ h3 {
       display: inline;
    }
 
+   #bwarm {
+      margin-top: 10% !important;
+   }
+
    .hello2 {
       margin-top: 18% !important;
    }
