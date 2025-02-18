@@ -129,7 +129,7 @@ input[type="checkbox"]:checked::after {
         border-radius: 05%;
         text-align: center;
         font-size: 1rem;
-        font-family: fantasy !important;
+        font-family: sans-serif !important;
     }
 
     button {
