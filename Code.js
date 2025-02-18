@@ -7,6 +7,7 @@ const emailHelper = document.getElementById('email-helper')
 const submit = document.getElementsByClassName('submit')
 
 fname.addEventListener('input', (e) => {
+
     const value = e.target.value;
     if (value.length === 1 || value.length === 2) {
         fnameHelper.innerText = 'First Name must be at least 3 characters '
@@ -47,7 +48,9 @@ email.addEventListener('input', (e) => {
         emailHelper.innerText = ''
         email.classList.remove('error')
     }
+
 });
+
 
 
 
