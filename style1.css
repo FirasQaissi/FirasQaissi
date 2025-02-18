@@ -261,6 +261,11 @@ h3 {
 
 @media(max-width:768px) {
 
+   .formbox {
+      width: 80% !important;
+      text-align: center !important;
+   }
+
    .h4port,
    .h1 {
       margin-bottom: 50%;
@@ -288,6 +293,17 @@ h3 {
    .h3firas {
       font-family: fantasy !important;
 
+   }
+
+   input,
+   textarea {
+      width: 150px;
+   }
+
+
+   label {
+      text-align: center !important;
+      margin: auto;
    }
 
 }
