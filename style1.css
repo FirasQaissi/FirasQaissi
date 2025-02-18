@@ -239,7 +239,7 @@ h3 {
 @media(max-width:768px) {
 
    body {
-      font-family: 'Courier New', Courier, monospace !important;
+      font-family: sans-serif !important;
       font-size: 20px;
    }
 
@@ -257,6 +257,7 @@ h3 {
       margin: auto;
       align-items: center;
       justify-content: center;
+      font-family: sans-serif !important;
    }
 
 
@@ -300,8 +301,12 @@ h3 {
    }
 
    .h3firas {
-      font-family: fantasy !important;
+      font-family: sans-serif !important;
 
+   }
+
+   .submit {
+      margin-top: 55% !important;
    }
 
 }
@@ -361,15 +366,15 @@ h3 {
 }
 
 .form {
-   width: 20%;
+
    display: flex;
    flex-direction: column;
    justify-content: start;
-   align-content: start;
+   align-content: space-around;
    margin: auto;
    margin-left: 1%;
    gap: 05px;
-
+   flex-wrap: wrap;
    border-radius: 18px;
    text-align: center;
    margin-top: 3%;
@@ -404,6 +409,12 @@ input {
    &:hover {
       background-color: rgba(103, 184, 23, 0.616);
    }
+}
+
+#error-message {
+   color: red;
+   font-size: 14px;
+   margin-bottom: 10px;
 }
 
 /***************************************************  promo-projects(Presentation)  ********************************************************************/

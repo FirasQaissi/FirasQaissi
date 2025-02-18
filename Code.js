@@ -6,14 +6,18 @@ const email = document.getElementById('email')
 const emailHelper = document.getElementById('email-helper')
 const submit = document.getElementsByClassName('submit')
 
+
+
+
+
 fname.addEventListener('input', (e) => {
 
     const value = e.target.value;
-    if (value.length === 1 || value.length === 2) {
+    if (value.length <= 2) {
         fnameHelper.innerText = 'First Name must be at least 3 characters '
         fnameHelper.style.color = 'red'
 
-    } if (!fname.classList.contains('error')) {
+    } else if (!fname.classList.contains('error')) {
         fname.classList.add('error')
     } else {
         fnameHelper.innerText = ''
@@ -25,9 +29,9 @@ lname.addEventListener('input', (e) => {
     const value = e.target.value
     if (value.length <= 2) {
         lnameHelper.innerText = 'Last Name must be at least 3 characters '
-        fnameHelper.style.color = 'red'
+        lnameHelper.style.color = 'red'
 
-    } if (!lname.classList.contains('error')) {
+    } else if (!lname.classList.contains('error')) {
         lname.classList.add('error')
     } else {
         lnameHelper.innerText = ''
@@ -42,7 +46,7 @@ email.addEventListener('input', (e) => {
     if (!emailRegex.test(value)) {
         emailHelper.innerText = 'Email must be a valid email address'
         emailHelper.style.color = 'red'
-    } if (!email.classList.contains('error')) {
+    } else if (!email.classList.contains('error')) {
         email.classList.add('error')
     } else {
         emailHelper.innerText = ''
