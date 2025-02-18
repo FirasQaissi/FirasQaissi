@@ -263,13 +263,15 @@ h3 {
 
    .formbox {
       width: 80% !important;
+      height: auto !important;
       text-align: center !important;
    }
 
-   .h4port,
-   .h1 {
-      margin-bottom: 50%;
-      font-size: medium;
+
+
+   #welcome,
+   h1 {
+      margin-top: 40% !important;
    }
 
    .h1 {
