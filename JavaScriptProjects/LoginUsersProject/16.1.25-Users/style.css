@@ -175,7 +175,7 @@ body {
         justify-content: center center;
         align-items: center;
         height: auto;
-        padding: 10px;
+
         width: 100vw;
         text-align: center;
     }
@@ -190,11 +190,11 @@ body {
     #users-table {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+
         width: 100%;
-        font-size: 0.8rem;
-        text-align: center;
+        font-size: 0.97rem;
+
     }
 
     #connect-btn,
