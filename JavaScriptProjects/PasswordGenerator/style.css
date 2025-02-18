@@ -129,6 +129,7 @@ input[type="checkbox"]:checked::after {
         border-radius: 05%;
         text-align: center;
         font-size: 1rem;
+        font-family: fantasy !important;
     }
 
     button {
@@ -147,7 +148,8 @@ input[type="checkbox"]:checked::after {
 
     #lenght {
         width: 100%;
-        background-color: #65acac1a;
+        background-color: #161f18c0;
+        color: #1809e0;
     }
 
     input {
