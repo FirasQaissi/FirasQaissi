@@ -17,7 +17,7 @@ section {
     font-size: x-large;
     text-shadow: 12px 12px 12px rgb(87, 83, 83);
     border-radius: 25px;
-   
+
 }
 
 
@@ -107,7 +107,7 @@ img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* אפקט hover */
+
 #inShekels:hover {
     background: linear-gradient(135deg, rgb(158, 205, 20), rgb(110, 160, 15));
     transform: scale(1.05);
@@ -115,8 +115,67 @@ img {
     color: black;
 }
 
-/* אפקט לחיצה */
 #inShekels:active {
     transform: scale(0.95);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 768px) {
+
+    .main,
+    .main2,
+    .main3,
+    .main4,
+    .main5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: start !important;
+        justify-content: start !important;
+        font-size: x-large;
+        text-align: start !important;
+
+    }
+
+
+    img {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #Bitcoin,
+    #eth,
+    #Xrp {
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .usdils,
+    .usdils2,
+    .usdils3,
+    .usdils4,
+    .usdils5,
+    .usdils6,
+    .usdils7,
+    .usdils8,
+    .usdils9,
+    .usdils10,
+    .usdils11,
+    .usdils12,
+    .usdils13,
+    .usdils14 {
+        display: none !important;
+    }
+
+    span {
+        font-size: 28px !important;
+    }
+
+    ul {
+        font-size: 30px !important;
+    }
 }

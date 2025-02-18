@@ -28,7 +28,7 @@ wsBitcoin.onmessage = (event) => {
 
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(bitCoinLastPrice * 3.55).toFixed(2)
-        afterConvert.textContent = convert
+        afterConvert.innerHTML = convert + " ₪"
         afterConvert.style.color = 'Blue'
         afterConvert.style.fontSize = '22px'
 
@@ -58,9 +58,10 @@ wsEth.onmessage = (event) => {
     const usdils2 = document.querySelector('.usdils2')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(lastPrice * 3.55).toFixed(2)
-        afterConvert2.textContent = convert
+        afterConvert2.textContent = convert + " ₪"
         afterConvert2.style.color = 'Blue'
         afterConvert2.style.fontSize = '22px'
+        afterConvert2.style.fontFamily = 'fantasy'
 
         usdils2.style.display = "inline";
     })
@@ -87,11 +88,11 @@ wsXRP.onmessage = (event) => {
     const afterConvert3 = document.getElementById('afterConvert3')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(xrpLastPrice * 3.55).toFixed(2)
-        afterConvert3.textContent = convert
+        afterConvert3.textContent = convert + " ₪"
         afterConvert3.style.color = 'Blue'
-        afterConvert3.style.fontSize = '20px'
+        afterConvert3.style.fontSize = '22px'
         const usdils3 = document.querySelector('.usdils3')
-
+        afterConvert3.style.fontFamily = 'fantasy'
         usdils3.style.display = "inline";
     })
 
@@ -119,11 +120,11 @@ wsSolona.onmessage = (event) => {
     const afterConvert4 = document.getElementById('afterConvert4')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(solonaLastPrice * 3.55).toFixed(2)
-        afterConvert4.textContent = convert
+        afterConvert4.textContent = convert + " ₪"
         afterConvert4.style.color = 'Blue'
-        afterConvert4.style.fontSize = '20px'
+        afterConvert4.style.fontSize = '22px'
         const usdils4 = document.querySelector('.usdils4')
-
+        afterConvert4.style.fontFamily = 'fantasy'
         usdils4.style.display = "inline";
     })
 
@@ -151,12 +152,12 @@ wsBNB.onmessage = (event) => {
     const afterConvert5 = document.getElementById('afterConvert5')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(bnbLastPrice * 3.55).toFixed(2)
-        afterConvert5.textContent = convert
+        afterConvert5.textContent = convert + " ₪"
         afterConvert5.style.color = 'Blue'
         afterConvert5.style.fontSize = '20px'
 
         const usdils5 = document.querySelector('.usdils5')
-
+        afterConvert5.style.fontFamily = 'fantasy'
         usdils5.style.display = "inline";
     })
 
@@ -182,12 +183,12 @@ wsDOG.onmessage = (event) => {
     const afterConvert6 = document.getElementById('afterConvert6')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(dogLastPrice * 3.55).toFixed(2)
-        afterConvert6.textContent = convert
+        afterConvert6.textContent = convert + " ₪"
         afterConvert6.style.color = 'Blue'
         afterConvert6.style.fontSize = '20px'
 
         const usdils6 = document.querySelector('.usdils6')
-
+        afterConvert6.style.fontFamily = 'fantasy'
         usdils6.style.display = "inline";
     })
 
@@ -212,10 +213,10 @@ wsCAR.onmessage = (event) => {
     const afterConvert7 = document.getElementById('afterConvert7')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(carLastPrice * 3.55).toFixed(2)
-        afterConvert7.textContent = convert
+        afterConvert7.textContent = convert + " ₪"
         afterConvert7.style.color = 'Blue'
         afterConvert7.style.fontSize = '20px'
-
+        afterConvert7.style.fontFamily = 'fantasy'
 
         const usdils7 = document.querySelector('.usdils7')
 
@@ -244,10 +245,10 @@ wsTRX.onmessage = (event) => {
     const afterConvert8 = document.getElementById('afterConvert8')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(trxLastPrice * 3.55).toFixed(2)
-        afterConvert8.textContent = convert
+        afterConvert8.textContent = convert + " ₪"
         afterConvert8.style.color = 'Blue'
         afterConvert8.style.fontSize = '20px'
-
+        afterConvert8.style.fontFamily = 'fantasy'
         const usdils8 = document.querySelector('.usdils8')
 
         usdils8.style.display = "inline";
@@ -276,10 +277,10 @@ wsLINK.onmessage = (event) => {
     const afterConvert9 = document.getElementById('afterConvert9')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(linkLastPrice * 3.55).toFixed(2)
-        afterConvert9.textContent = convert
+        afterConvert9.textContent = convert + " ₪"
         afterConvert9.style.color = 'Blue'
         afterConvert9.style.fontSize = '20px'
-
+        afterConvert9.style.fontFamily = 'fantasy'
         const usdils9 = document.querySelector('.usdils9')
 
         usdils9.style.display = "inline";
@@ -308,10 +309,10 @@ wsAvax.onmessage = (event) => {
     const afterConvert10 = document.getElementById('afterConvert10')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(avaxLastPrice * 3.55).toFixed(2)
-        afterConvert10.textContent = convert
+        afterConvert10.textContent = convert + " ₪"
         afterConvert10.style.color = 'Blue'
         afterConvert10.style.fontSize = '20px'
-
+        afterConvert10.style.fontFamily = 'fantasy'
         const usdils10 = document.querySelector('.usdils10')
 
         usdils10.style.display = "inline";
@@ -341,11 +342,11 @@ wsPOL.onmessage = (event) => {
     const afterConvert11 = document.getElementById('afterConvert11')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(polLastPrice * 3.55).toFixed(2)
-        afterConvert11.textContent = convert
+        afterConvert11.textContent = convert + " ₪"
         afterConvert11.style.color = 'Blue'
         afterConvert11.style.fontSize = '20px'
         const usdils11 = document.querySelector('.usdils11')
-
+        afterConvert11.style.fontFamily = 'fantasy'
         usdils11.style.display = "inline";
     }
     )
@@ -373,11 +374,11 @@ wsHBAR.onmessage = (event) => {
     const afterConvert12 = document.getElementById('afterConvert12')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(hbarLastPrice * 3.55).toFixed(2)
-        afterConvert12.textContent = convert
+        afterConvert12.textContent = convert + " ₪"
         afterConvert12.style.color = 'Blue'
         afterConvert12.style.fontSize = '20px'
         const usdils12 = document.querySelector('.usdils12')
-
+        afterConvert12.style.fontFamily = 'fantasy'
         usdils12.style.display = "inline";
     }
     )
@@ -402,11 +403,11 @@ wsLite.onmessage = (event) => {
     const afterConvert13 = document.getElementById('afterConvert13')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(liteLastPrice * 3.55).toFixed(2)
-        afterConvert13.textContent = convert
+        afterConvert13.textContent = convert + " ₪"
         afterConvert13.style.color = 'Blue'
         afterConvert13.style.fontSize = '20px'
         const usdils13 = document.querySelector('.usdils13')
-
+        afterConvert13.style.fontFamily = 'fantasy'
         usdils13.style.display = "inline";
     }
     )
@@ -434,12 +435,12 @@ wsOM.onmessage = (event) => {
     const afterConvert14 = document.getElementById('afterConvert14')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(omLastPrice * 3.55).toFixed(2)
-        afterConvert14.textContent = convert
+        afterConvert14.textContent = convert + " ₪"
         afterConvert14.style.color = 'Blue'
         afterConvert14.style.fontSize = '20px'
 
         const usdils14 = document.querySelector('.usdils14')
-
+        afterConvert14.style.fontFamily = 'fantasy'
         usdils14.style.display = "inline";
     }
     )
@@ -465,10 +466,10 @@ wsUNI.onmessage = (event) => {
     const afterConvert15 = document.getElementById('afterConvert15')
     inShekels.addEventListener('click', () => {
         const convert = parseFloat(uniLastPrice * 3.55).toFixed(2)
-        afterConvert15.textContent = convert
+        afterConvert15.textContent = convert + " ₪"
         afterConvert15.style.color = 'Blue'
         afterConvert15.style.fontSize = '20px'
-
+        afterConvert15.style.fontFamily = 'fantasy'
         const usdils15 = document.querySelector('.usdils15')
 
         usdils15.style.display = "inline";
