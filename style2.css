@@ -560,7 +560,8 @@ input {
         text-align: center;
     }
 
-    .iconsJavaS {
+    .iconsJavaS
+    {
         display: flex;
         flex-wrap: wrap;
     }

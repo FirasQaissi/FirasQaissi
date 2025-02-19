@@ -135,13 +135,16 @@ body {
 #projects {
    font-family: 'Courier New', Courier, monospace;
    text-align: center;
+   border: 1px solid black;
 }
 
 .h1project {
    font-family: fantasy;
    padding-bottom: 3%;
    text-decoration: overline;
-   background-image: linear-gradient(rgb(224, 240, 9), rgb(204, 117, 35));
+   background-image: linear-gradient(rgb(54, 54, 49), rgb(65, 70, 100));
+   color: rgb(244, 247, 250);
+   border-radius: 100px;
 }
 
 h3 {
@@ -182,20 +185,22 @@ h3 {
 #javascriptProjects {
    text-align: center !important;
    font-family: 'Courier New', Courier, monospace;
+   border: 1px solid rgb(8, 8, 0);
 
 }
 
 #javascriptProjects a {
    text-decoration: none;
-   color: rgba(0, 0, 0, 0.616);
+   color: rgba(37, 30, 30, 0.911);
    font-size: 20px;
-   font-family: 'Courier New', Courier, monospace;
-   font-weight: bold;
+   font-family: fantasy;
+
    background-color: rgba(160, 168, 168, 0.87);
    border-radius: 30px;
    padding: 12%;
    margin: 2%;
    box-shadow: 2px 2px rgba(13, 136, 136, 0.774);
+
 }
 
 #javascriptProjects a:hover {
@@ -219,6 +224,7 @@ h3 {
    font-family: fantasy;
    font-size: 18px;
    color: rgba(24, 22, 19, 0.756);
+   border-radius: 25px;
 
 }
 
@@ -330,7 +336,7 @@ h3 {
    border-radius: 120px;
    margin: auto;
    flex-direction: row;
-   font-family: fantasy !important;
+   font-family: fantasy;
 
 
 
