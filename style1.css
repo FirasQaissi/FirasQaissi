@@ -209,7 +209,9 @@ h3 {
 .jsCard3,
 .jsCard4,
 .jsCard5,
-.jsCard6 {
+.jsCard6,
+.jsCard7,
+.jsCard8 {
    align-items: center !important;
    background-image: url(./imgs-1/CardWallPaper.jpg);
    background-size: cover;
