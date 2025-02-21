@@ -1,14 +1,14 @@
 
 function calc() {
-    let correctAnswers = 0
     document.querySelector('.first').innerHTML = `
-        <h1 id = "text2" >Lets Start:</h1>
-        <div id = "part2"> </div>
-       
-        <p id="corecct" ></p>
-     `
-    let userQuestion = 0
+    <h1 id = "text2" >Lets Start:</h1>
+    <div id = "part2"> </div>
+    
+    <p id="corecct" ></p>
+    `
 
+    let correctAnswers = 0
+    let userQuestion = 0
 
     plusMin()
 
@@ -39,7 +39,10 @@ function calc() {
                <p id='q1' > ${num1}  ${oper} ${num2} </p>
                  <input type="number" id = "answerInput"><br><br>
                  <button id=ccc onclick= 'check( ${corecctResults})' >Check Your Answer</button></div>
+                   <div id = "alert"></div>
             `
+
+
 
 
         } else {
@@ -61,8 +64,19 @@ function calc() {
             let userAnswer = parseInt(document.getElementById('answerInput').value);
             if (userAnswer === corecctResults) {
                 correctAnswers++;
-            } else { alert('Insert Answer Please') }
+            } else if (!userAnswer) {
+                userQuestion--;
+                const alert = document.getElementById('alert')
+                alert.style.display = 'inline'
+                const question = document.getElementsByClassName('question')
+                alert.innerText = 'Insert an Answer Please'
+                alert.appendChild('question')
 
+                
+
+
+            }
+            userQuestion++;
             plusMin();
 
         }
