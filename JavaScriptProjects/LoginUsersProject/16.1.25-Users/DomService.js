@@ -51,7 +51,10 @@ const drawTableRows = (users) => {
         editButton.style.height = '25px'
         editButton.style.color = 'black';
         editButton.style.cursor = 'pointer'
+
+
         editButton.addEventListener('click', () => {
+
             const divEdit = document.getElementById('editing')
             divEdit.style.gap = '15px'
             divEdit.style.margin = 'auto'
@@ -61,15 +64,36 @@ const drawTableRows = (users) => {
             const h1Edit = document.createElement('h1')
             h1Edit.textContent = 'Edit your Info'
             divEdit.appendChild(h1Edit)
+
+            const close = document.createElement('button')
+            divEdit.appendChild(close)
+            close.textContent = 'X'
+            close.style.position = 'absolute';
+            close.style.top = '10px';
+            close.style.right = '10px';
+            close.style.backgroundColor = 'red';
+            close.style.color = 'white';
+            close.style.border = 'none';
+            close.style.width = '30px';
+            close.style.height = '30px';
+            close.style.cursor = 'pointer';
+            close.style.borderRadius = '50%';
+            close.style.fontSize = '18px';
+            
+            close.addEventListener('click', () => {
+                divEdit.innerHTML = ''
+            })
             const firstNameinput = document.createElement('input')
             firstNameinput.placeholder = 'First Name'
             divEdit.appendChild(firstNameinput)
+
             const lastNameInput = document.createElement('input')
             divEdit.appendChild(lastNameInput)
             lastNameInput.placeholder = 'Last Name'
             const eMailInput = document.createElement('input')
             divEdit.appendChild(eMailInput)
             eMailInput.placeholder = 'Email'
+
             const changePasswordEdit = document.createElement('input')
             divEdit.appendChild(changePasswordEdit)
             changePasswordEdit.placeholder = 'Change Password'
@@ -88,6 +112,8 @@ const drawTableRows = (users) => {
             submitEdit.style.borderRadius = '15px'
             submitEdit.style.cursor = 'pointer'
             divEdit.appendChild(submitEdit)
+
+
 
             const changing = []
             submitEdit.addEventListener('click', () => {
@@ -111,6 +137,8 @@ const drawTableRows = (users) => {
                         changeInfo.textContent = '';
                         changeInfo.style.backgroundColor = 'transparent';
                     }, 3000);
+
+
                 }
 
 
@@ -124,7 +152,6 @@ const drawTableRows = (users) => {
         row.appendChild(editButton);
         tableBody.appendChild(row);
     });
-
 
 
 };

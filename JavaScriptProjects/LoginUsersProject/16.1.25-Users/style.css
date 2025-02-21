@@ -22,6 +22,7 @@
 
 .container-register {
     flex-direction: column;
+    align-items: center;
     display: flex;
     height: auto;
     width: 36vw;
@@ -88,7 +89,7 @@
     position: absolute;
     top: 5rem;
     border: 1px solid black;
-    width: 17% !important;
+    width: auto;
     height: auto;
     background-color: rgba(123, 161, 73, 0.822);
     border-radius: 20px;

@@ -72,7 +72,7 @@ function calc() {
                 alert.innerText = 'Insert an Answer Please'
                 alert.appendChild('question')
 
-                
+
 
 
             }
